@@ -18,5 +18,12 @@ public class Quest {
 
         System.out.print("Masukkan nilai Rekayasa Perangkat Lunak: ");
         double rpl = input.nextDouble();
+
+        double total = strukturData + pbo + basisData + algo + rpl;
+        double ratarata = total / 5;
+        double ipk = ratarata / 100 * 4.0;
+
+        
+
     }
 }

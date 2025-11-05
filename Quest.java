@@ -55,7 +55,7 @@ public class Quest {
             pilihan = input.nextInt();
            
 
-        }
+        
 
         switch (pilihan) {
             case 1:
@@ -88,5 +88,9 @@ public class Quest {
         }else{
             System.out.println("Maaf, Anda tidak diterima sebagai Asisten Dosen untuk mata kuliah " + namaMatkul + " karena nilai Anda " + nilaiDipilih + " kurang dari 75.");
         }
+    } else {
+        System.out.println("Maaf, Anda tidak memenuhi syarat untuk mendaftar Asisten Dosen");
+    }
+
     }
 }

@@ -38,5 +38,21 @@ public class Quest {
         System.out.println("Nilai Rata-rata: " + ratarata);
         System.out.println("IPK: " + ipk);
         System.out.println("Predikat: " + predikat);
+
+        if (ipk >= 3.5) {
+            System.out.println("\nSelamat! Anda memenuhi syarat untuk mendaftar Asisten Dosen.");
+            System.out.println("Pilih mata kuliah yang ingin diajukan:");
+            System.out.println("1. Struktur Data");
+            System.out.println("2. Pemrograman Berorientasi Objek");
+            System.out.println("3. Basis Data");
+            System.out.println("4. Algoritma dan Pemrograman");
+            System.out.println("5. Rekayasa Perangkat Lunak");
+            System.out.print("Masukkan pilihan (1-5): ");
+            int pilihan = input.nextInt();
+
+            double nilaiDipilih = 0;
+            String namaMatkul = "";
+        }
+        
     }
 }

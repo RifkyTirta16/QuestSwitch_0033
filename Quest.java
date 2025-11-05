@@ -82,5 +82,11 @@ public class Quest {
                 System.out.println("Pilihan tidak valid.");
                 return;
         }
+
+        if(nilaiDipilih >= 75){
+            System.out.println("Anda diterima sebagai Asisten Dosen untuk mata kuliah " + namaMatkul + " dengan nilai " + nilaiDipilih);
+        }else{
+            System.out.println("Maaf, Anda tidak diterima sebagai Asisten Dosen untuk mata kuliah " + namaMatkul + " karena nilai Anda " + nilaiDipilih + " kurang dari 75.");
+        }
     }
 }

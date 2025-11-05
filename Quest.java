@@ -56,5 +56,31 @@ public class Quest {
            
 
         }
+
+        switch (pilihan) {
+            case 1:
+                namaMatkul = "Struktur Data";
+                nilaiDipilih = strukturData;
+                break;
+            case 2:
+                namaMatkul = "Pemrograman Berorientasi Objek";
+                nilaiDipilih = pbo;
+                break;
+            case 3:
+                namaMatkul = "Basis Data";
+                nilaiDipilih = basisData;
+                break;
+            case 4:
+                namaMatkul = "Algoritma dan Pemrograman";
+                nilaiDipilih = algo;
+                break;
+            case 5:
+                namaMatkul = "Rekayasa Perangkat Lunak";
+                nilaiDipilih = rpl;
+                break;
+            default:
+                System.out.println("Pilihan tidak valid.");
+                return;
+        }
     }
 }
